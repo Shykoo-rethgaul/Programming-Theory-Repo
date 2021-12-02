@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6530025658647382474}
   - component: {fileID: 6530025658647382477}
   - component: {fileID: 6530025658647382476}
-  - component: {fileID: 6530025658647382472}
+  - component: {fileID: -5381119893430787218}
   m_Layer: 0
   m_Name: Enemy_Vertical
   m_TagString: Vertical Enemy
@@ -98,7 +98,7 @@ CapsuleCollider:
   m_Height: 0.611506
   m_Direction: 1
   m_Center: {x: -0.006584375, y: 0.0818746, z: -0.00000007305744}
---- !u!114 &6530025658647382472
+--- !u!114 &-5381119893430787218
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,7 +107,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6530025658647382479}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df15828d9f0e0654da53038080b3a538, type: 3}
+  m_Script: {fileID: 11500000, guid: 68268b3de8713de4e9e023f98df75e75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5

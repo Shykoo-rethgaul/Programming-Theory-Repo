@@ -34,13 +34,9 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         PlayerMovement();
+        PlayerHealth();
         ConstrainPlayerMovement();
-        //
-        if (playerHealth == 0)
-        {
-            Debug.Log("Game Over!");
-            Destroy(gameObject);
-        }
+        
     }
     void ConstrainPlayerMovement()
     {
@@ -99,6 +95,14 @@ public class PlayerController : MonoBehaviour
             fruitCollected += 1;
             Debug.Log("Got a fruit! You have collected " + fruitCollected + " so far!");
             Destroy(other.gameObject);
+        }
+    }
+    public void PlayerHealth()
+    {
+        if (playerHealth == 0)
+        {
+            Debug.Log("Game Over!");
+            Destroy(gameObject);
         }
     }
 }
